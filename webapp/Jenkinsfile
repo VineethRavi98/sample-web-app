@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git branch:'developer', credentialsId: 'GITHUB_CREDENTIALS', poll: false, url: 'https://github.com/bmanikantareddy/hello-world-webapp.git'
+                git branch:'developer', credentialsId: 'GITHUB_CREDENTIALS', poll: false, url: 'https://github.com/VineethRavi98/sample-web-app.git'
             }
         }
         
